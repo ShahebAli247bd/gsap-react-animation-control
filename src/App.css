@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.boxContainer {
+    display: flex;
+    gap: 5px;
+}
+.boxContainer div {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(
+        217deg,
+        rgba(0, 55, 255, 0.8),
+        rgb(0, 174, 255) 70.71%
+    );
+    justify-content: center;
+    align-items: center;
+}
