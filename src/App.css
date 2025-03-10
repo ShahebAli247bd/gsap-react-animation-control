@@ -1,19 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+* ul li {
+    list-style: none;
+}
+.sidebar,
+.animationSettings {
+    background: #e3e3e3;
+    padding: 20px;
+    width: 300px;
+}
+#root {
+    width: 100%;
+}
+.mainContainer {
+    height: 100vh;
+    display: flex;
+}
+.rootLayout {
+    display: flex;
+
+    gap: 20px;
+    width: 100%;
+}
+
+.AnimationLayout {
+    display: flex;
+
+    gap: 20px;
+    width: 100%;
+}
+.animationBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
 }
-
+.animationCode {
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 300px;
+    vertical-align: top;
+    overflow: auto;
+}
 .boxContainer {
     display: flex;
     gap: 5px;
 }
 .boxContainer div {
     display: flex;
+
     width: 30px;
     height: 30px;
     border-radius: 50%;
